@@ -1,0 +1,35 @@
+.projects_card_wrappers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cards{
+    position: relative;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 29%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+}
+
+.cards:hover{
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-img{
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    z-index: 9999;
+    transition: 1s;
+}
+
+.project-content{
+   transition: 1s;
+}
+
+
+

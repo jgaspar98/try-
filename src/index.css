@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Robot_Mono";
+  src: local("Robot_Mono"),
+  url("./fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "Gloria_Hallelujah";
+  src: local("Gloria_Hallelujah"),
+  url("./fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf") format("truetype");
+}
