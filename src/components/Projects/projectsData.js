@@ -15,7 +15,7 @@ const projectsData = [
     },
     {
         name:'Benamor',
-        img: '',
+        img: '/logo/benamor.png',
         description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
         stack: 'Shopify , Liquid',
         path:'',

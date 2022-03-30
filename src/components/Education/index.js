@@ -4,9 +4,6 @@ import './education.css'
 //Import Data
 import contentsEducation from './contentsEducation';
 
-// Import Model
-import Rengoku from '../rengoku';
-
 function Education() {
   return (
     <div className='education_wrapper'>
@@ -85,7 +82,6 @@ function Education() {
                 In my free time I like to play the guitar, watch movies & series, watch anime, play games and also go outside and take some photographies. 
               <span className='code code-text'>{'</p>'}</span>
             </p>
-          <Rengoku/>
           </div>
         </div>
 
